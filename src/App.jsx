@@ -9,7 +9,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <>
-      <div className="bg-[#0C0722] h-screen w-full pt-6 px-8 md:px-16 lg:px-32">
+      <div className="bg-[#0C0722]  h-screen w-full pt-6 px-8  md:px-16 lg:px-32">
         <div className="h-16 flex justify-between items-center p-2">
           <h1 className="text-zinc-50 text-xl font-semibold">Tradylytics</h1>
           <button className="bg-zinc-50 text-sm font-medium flex justify-center gap-1 items-center h-12 px-4 w-32 md:w-40 rounded-2xl">
@@ -18,12 +18,15 @@ function App() {
           </button>
         </div>
 
-        <div className="h-3/5   my-6 py-8 md:py-16 px-4 md:px-16 lg:px-40 leading-loose">
-          <h1 className="text-4xl md:text-6xl font-normal text-zinc-50">
+        <div className="h-3/5 my-6   py-8 px-4 sm:pt-32 md:py-16 md:px-16 lg:px-40 leading-loose">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal text-zinc-50 text-center">
             The Only Tool You Need <br />
-            <span className="text-3xl md:text-5xl">To Become</span> <br />
+            <span className="text-2xl sm:text-3xl md:text-4xl">
+              To Become
+            </span>{" "}
+            <br />
             <div className="relative">
-              <span className="text-[#39D783]  z-20 absolute text-[12vw] md:text-[10vw] lg:text-[12vw] font-bold">
+              <span className="text-[#39D783] z-20 absolute left-1/2 -translate-x-1/2 text-[12vw] sm:text-[17vw] md:text-[16vw] lg:text-[12vw] font-bold">
                 Profitable
               </span>
             </div>
