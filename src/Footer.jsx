@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-[#0C0721]">
+    <div className="w-full bg-[#0C0722]">
       <div className="max-w-screen-xl mx-auto py-10 px-6 lg:px-0 flex flex-col lg:flex-row gap-12 lg:gap-32 text-zinc-50 mt-44">
         <div className="lg:basis-1/2">
           <h1 className="text-4xl md:text-6xl lg:text-[8rem] font-semibold leading-none tracking-tight">
