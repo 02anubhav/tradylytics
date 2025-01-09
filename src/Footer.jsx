@@ -12,16 +12,29 @@ const Footer = () => {
         <div className="lg:basis-1/2 flex flex-col sm:flex-row gap-8">
           <div className="basis-1/3">
             <h4 className="mb-6 text-zinc-500 text-sm md:text-base">Socials</h4>
-            {["Instagram", "Twitter", "LinkedIn"].map((item, index) => (
+            {[
+              {
+                name: "Instagram",
+                url: "https://www.instagram.com/tradylytics/profilecard/?igsh=YW13OW5ibXE4Nm1l",
+              },
+              {
+                name: "Twitter",
+                url: "https://x.com/tradylytics?t=R8XIh48q3r-stSYc3uoRSA&s=09",
+              },
+              { name: "LinkedIn", url: "#" }, // Replace '#' with the actual LinkedIn URL
+            ].map((item, index) => (
               <a
                 key={index}
-                href={`#${item}`}
+                href={item.url}
+                target="_blank" // Opens the link in a new tab
+                rel="noopener noreferrer" // Improves security when opening external links
                 className="block mt-2 text-zinc-600 text-sm md:text-base hover:text-zinc-300"
               >
-                {item}
+                {item.name}
               </a>
             ))}
           </div>
+
           <div className="basis-1/3">
             <h4 className="mb-6 text-zinc-500 text-sm md:text-base">
               Contact Us

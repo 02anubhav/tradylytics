@@ -18,6 +18,20 @@ export default {
     },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.text-stroke': {
+          '-webkit-text-stroke': '4px #fff',
+        },
+        '.text-stroke-2': {
+          '-webkit-text-stroke': '2px #fff',
+        },
+        '.text-stroke-white': {
+          '-webkit-text-stroke': '4px #fff',
+        },
+      });
+    },
+  ],
 }
 
