@@ -32,11 +32,11 @@ function App() {
             </div>
           </h1>
         </div>
-        <div className="relative h-1/4   md:pl-64 lg:pl-24 ">
-          <h1 className=" z-10 w-full absolute text-[9vw] mdfont-bold   lg:pl-10 text-stroke text-[#0C0722]">
+        <div className="relative h-1/4  md:ml-24 lg:pl-24 ">
+          <h1 className=" z-10 w-full absolute text-[9vw] mdfont-bold md:-mt-2 md:-ml-2   lg:pl-10 text-stroke text-[#0C0722]">
             Coming Soon
           </h1>
-          <h1 className=" w-full absolute text-9xl mdfont-bold opacity-40 pt-1 text-stroke text-[#0C0722]">
+          <h1 className=" w-full absolute md:text-[10vw] text-9xl mdfont-bold opacity-40 md:-ml-3  pt-1 text-stroke text-[#0C0722]">
             Coming Soon
           </h1>
         </div>
