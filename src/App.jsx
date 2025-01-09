@@ -32,22 +32,18 @@ function App() {
             </div>
           </h1>
         </div>
-       <div className="relative h-1/4 md:ml-24 lg:pl-24">
-  {/* Main "Coming Soon" Text */}
-  <h1
-    className="absolute z-10 w-full text-[12vw] sm:text-[10vw] md:text-[8vw] lg:text-[6vw] font-bold -mt-2 -ml-2 lg:pl-10 text-stroke text-[#0C0722]"
-  >
-    Coming Soon
-  </h1>
+        <div className="relative  h-1/4 flex items-center justify-center">
+          {/* Background "Coming Soon" Text */}
+          <h1 className="absolute text-[18vw]  sm:text-[15vw] md:text-[12vw] lg:text-[10vw] font-bold opacity-40 text-stroke text-[#0C0722]">
+            Coming Soon
+          </h1>
 
-  {/* Shadowed "Coming Soon" Text for Effect */}
-  <h1
-    className="absolute w-full text-[12vw] sm:text-[10vw] md:text-[8vw] lg:text-[6vw] font-bold opacity-40 -ml-3 pt-1 text-stroke text-[#0C0722]"
-  >
-    Coming Soon
-  </h1>
-</div>
-
+          {/* Foreground "Coming Soon" Text */}
+          <h1 className="relative text-[12vw] sm:text-[10.5vw]   md:text-[9.5vw] lg:text-[8.5vw] opacity-90 font-bold text-stroke text-[#0C0722]">
+            Coming Soon
+          </h1>
+        </div>
+      </div>
 
       <div className="h-full w-full bg-[#0C0722] ">
         <div className="flex flex-wrap justify-center gap-6 md:gap-12 items-center p-6  pt-32">
