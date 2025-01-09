@@ -34,7 +34,7 @@ function App() {
         </div>
         <div className="relative  h-1/4 flex items-center justify-center">
           {/* Background "Coming Soon" Text */}
-          <h1 className="absolute text-[18vw]  sm:text-[15vw] md:text-[12vw] lg:text-[10vw] font-bold opacity-40 text-stroke text-[#0C0722]">
+          <h1 className="absolute text-[18vw] -mt-12  sm:text-[15vw] md:text-[12vw] lg:text-[10vw] font-bold opacity-40 text-stroke text-[#0C0722]">
             Coming Soon
           </h1>
 
