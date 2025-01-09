@@ -32,16 +32,19 @@ function App() {
             </div>
           </h1>
         </div>
-        <div className="h-1/5">
-          <h1 className="text-7xl font-bold tracking-widest text-center text-stroke text-[#0C0722]">
+        <div className="relative h-1/4   md:pl-64 lg:pl-24 ">
+          <h1 className=" z-10 w-full absolute text-[9vw] mdfont-bold   lg:pl-10 text-stroke text-[#0C0722]">
+            Coming Soon
+          </h1>
+          <h1 className=" w-full absolute text-9xl mdfont-bold opacity-40 pt-1 text-stroke text-[#0C0722]">
             Coming Soon
           </h1>
         </div>
       </div>
 
-      <div className="h-full w-full bg-[#0C0722]">
-        <div className="flex flex-wrap justify-center gap-6 md:gap-12 items-center p-6">
-          <div className="bg-zinc-50 h-80 md:h-96 w-72 md:w-96 rounded-2xl shadow-md shadow-slate-500 p-6">
+      <div className="h-full w-full bg-[#0C0722] ">
+        <div className="flex flex-wrap justify-center gap-6 md:gap-12 items-center p-6  pt-32">
+          <div className="bg-zinc-50 h-80 md:h-96 w-72 md:w-96 rounded-2xl shadow-md shadow-slate-500 p-6 ">
             <BsJournalBookmarkFill className="text-3xl md:text-4xl" />
             <h5 className="font-medium text-xl md:text-2xl py-3">Journal</h5>
             <p className="text-sm md:text-base">

@@ -22,13 +22,13 @@ export default {
     function ({ addUtilities }) {
       addUtilities({
         '.text-stroke': {
-          '-webkit-text-stroke': '4px #fff',
+          '-webkit-text-stroke': '4px #71717A',
         },
         '.text-stroke-2': {
-          '-webkit-text-stroke': '2px #fff',
+          '-webkit-text-stroke': '2px #71717A',
         },
         '.text-stroke-white': {
-          '-webkit-text-stroke': '4px #fff',
+          '-webkit-text-stroke': '4px #71717A',
         },
       });
     },
