@@ -12,8 +12,8 @@ function App() {
     <>
       <div className="bg-[#0C0722]  h-screen w-full pt-6 px-8  md:px-16 lg:px-32">
         <div className="h-16 flex justify-between items-center p-2">
-          <h1 className="text-zinc-50 text-5xl font-semibold">TradyLytics</h1>
-          <button className="bg-zinc-50 text-lg font-medium flex justify-center gap-1 items-center h-12 px-4 w-32 md:w-40 rounded-2xl">
+          <h1 className="text-zinc-50 sm:text-3xl text-5xl font-semibold">TradyLytics</h1>
+          <button className="bg-zinc-50 text-lg font-medium flex justify-center gap-1 items-center h-12 px-4 w-32 md:w-40 rounded-2xl sm:p-2 sm:w-40 sm:h-10">
             Coming Soon
           </button>
         </div>
