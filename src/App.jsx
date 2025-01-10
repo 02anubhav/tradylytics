@@ -10,15 +10,15 @@ import Footer from "./Footer";
 function App() {
   return (
     <>
-      <div className="bg-[#0C0722]  h-screen w-full pt-6 px-8  md:px-16 lg:px-32">
+      <div className="bg-[#0C0722]   h-screen w-full pt-6 px-8  md:px-16 lg:px-32">
         <div className="h-16 flex justify-between items-center p-2">
           <h1 className="text-zinc-50 text-xl md:text-4xl  lg:text-5xl font-semibold">TradyLytics</h1>
-          <button className="bg-zinc-50 text-lg font-medium flex justify-center gap-1 items-center h-12 px-4 w-32 md:w-40 rounded-2xl ">
+          <button className="bg-zinc-50 text-sm  md:text-lg lg:text-lg font-medium flex justify-center gap-1 items-center h-12 px-4 w-32 md:w-40 rounded-2xl ">
             Coming Soon
           </button>
         </div>
 
-        <div className="h-3/5 my-6  lg:-py-8   py-8 px-4 sm:pt-32 md:py-16 md:px-16 lg:px-40 leading-loose">
+        <div className="h-3/5 my-10   px-4 sm:pt-32 md:py-16 md:px-16 lg:px-40 leading-loose">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal text-zinc-50 text-center">
             Turning Every Trade <br />
             <div className="relative">
@@ -28,20 +28,20 @@ function App() {
             </div>
           </h1>
         </div>
-        <div className="relative  h-1/4 flex items-center justify-center lg:-py-16 xl:-py-24">
-          {/* Background "Coming Soon" Text */}
+        <div className="relative  -mt-64  h-1/4 flex items-center justify-center lg:-py-16 xl:-py-24">
+       
           <h1 className="absolute text-[18vw] -mt-12  sm:text-[15vw] md:text-[12vw] lg:text-[10vw] font-bold opacity-40 text-stroke text-[#0C0722]">
             Coming Soon
           </h1>
 
-          {/* Foreground "Coming Soon" Text */}
+        
           <h1 className="relative text-[12vw] sm:text-[10.5vw]   md:text-[9.5vw] lg:text-[8.5vw] opacity-90 font-bold text-stroke text-[#0C0722]">
             Coming Soon
           </h1>
         </div>
       </div>
 
-      <div className="h-full w-full bg-[#0C0722] ">
+      <div className="h-full w-full bg-[#0C0722]  -mt-40">
         <div className="flex flex-wrap justify-center gap-6 md:gap-12 items-center p-6  pt-32">
           <div className="bg-zinc-50 h-80 md:h-96 w-72 md:w-96 rounded-2xl shadow-md shadow-slate-500 p-6 ">
             <TbSettingsAutomation className="text-5xl md:text-5xl" />
