@@ -15,13 +15,16 @@ const Footer = () => {
             {[
               {
                 name: "Instagram",
-                url: "https://www.instagram.com/tradylytics/profilecard/?igsh=YW13OW5ibXE4Nm1l",
+                url: "https://www.instagram.com/tradylytics/?igsh=YW13OW5ibXE4Nm1l",
               },
               {
                 name: "Twitter",
                 url: "https://x.com/tradylytics?t=R8XIh48q3r-stSYc3uoRSA&s=09",
               },
-              { name: "LinkedIn", url: "#" }, // Replace '#' with the actual LinkedIn URL
+              {
+                name: "LinkedIn",
+                url: "https://www.linkedin.com/company/tradylytics",
+              }, // Replace '#' with the actual LinkedIn URL
             ].map((item, index) => (
               <a
                 key={index}
@@ -46,7 +49,7 @@ const Footer = () => {
               info@tradylytics.in
             </a>
             <a
-              href="tel:+91 9876543210"
+              href="tel:+91 9166452134"
               className="block mt-2 text-zinc-600 text-sm md:text-base hover:text-zinc-300"
             >
               +91 9166452134
