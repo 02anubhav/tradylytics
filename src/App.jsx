@@ -22,7 +22,7 @@ function App() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal text-zinc-50 text-center">
             Turning Every Trade <br />
             <div className="relative">
-              <span className="text-[#39D783] z-20 absolute left-1/2 -translate-x-1/2 text-[12vw] sm:text-[17vw] md:text-[16vw] lg:text-[12vw] font-bold">
+              <span className="text-[#39D783] z-20 absolute left-1/2 -translate-x-1/2 text-[16vw] sm:text-[17vw] md:text-[16vw] lg:text-[12vw] font-bold">
                 Profitable
               </span>
             </div>
