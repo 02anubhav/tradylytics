@@ -28,7 +28,7 @@ function App() {
             </div>
           </h1>
         </div>
-        <div className="relative  -mt-64  h-1/4 flex items-center justify-center lg:-py-16 xl:-py-24">
+        <div className="relative  -mt-32  h-1/4 flex items-center justify-center lg:-py-16 xl:-py-24">
        
           <h1 className="absolute text-[18vw] -mt-12  sm:text-[15vw] md:text-[12vw] lg:text-[10vw] font-bold opacity-40 text-stroke text-[#0C0722]">
             Coming Soon
