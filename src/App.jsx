@@ -41,7 +41,7 @@ function App() {
         </div>
       </div>
 
-      <div className="h-full w-full bg-[#0C0722]  -mt-40">
+      <div className="h-full w-full bg-[#0C0722] md:mt-0 lg:mt-0  -mt-36 ">
         <div className="flex flex-wrap justify-center gap-6 md:gap-12 items-center p-6  pt-32">
           <div className="bg-zinc-50 h-80 md:h-96 w-72 md:w-96 rounded-2xl shadow-md shadow-slate-500 p-6 ">
             <TbSettingsAutomation className="text-5xl md:text-5xl" />
